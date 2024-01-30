@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    background-color: darkslategrey;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    padding: .3rem;
+}
+
+main h3{
+    margin: 1rem 0;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: aliceblue;
+    
+}
+
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: .3rem;
+    
+}
+
+button{
+    height: 110px;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: rgb(247, 240, 244);
+   background-color: rgb(51, 28, 180);
+   border: 0;
+   outline: 0;
+   border-radius: .5rem;
+}
+
+#reset{
+    
+    justify-content: center;display: block;
+     font-size: .8rem;
+
+    width: 100px;
+    height: 50px;
+    background-color: crimson;
+    border: 0;
+    outline: 0;
+    border-radius: .5rem;
+    margin: 10px auto;
+    
+}
+
+
+.result{
+    padding: .5rem 1rem;
+    background-color: rgb(81, 233, 93);
+    border-radius: .2rem;
+}
+.result h3{
+    color: deeppink;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bolder;
+   
+}
+
+.result button{
+    display: block;
+   width: 90px;
+   height: 40px;
+    color: crimson;
+    background-color: rgb(228, 228, 59);
+    border: 0;
+    text-align: center;
+    border-radius: .8rem;
+    font-size: .7rem;
+    margin: 5px auto;
+}
+
+.hide{
+    display: none;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: rgb(27, 207, 105);
+    margin-bottom: .5rem;
+}
+
+.flex p{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: crimson;
+    padding: .8rem 0;
+}
+
+i{
+    color: white;
+    font-size: 1.5rem;
+}
